@@ -1,0 +1,8 @@
+name: continue-config
+version: "1"
+
+models:
+  - name: sonoma
+    provider: openrouter
+    model: openrouter/sonoma-dusk-alpha
+    apiKey: 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
