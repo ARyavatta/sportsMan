@@ -1,186 +1,343 @@
-# [Material Tailwind Dashboard React](http://demos.creative-tim.com/material-tailwind-dashboard-react/#/?ref=readme-mtdr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-tailwind-dashboard-react&text=Check%20Material%20Tailwind%20Dashboard%20React%20made%20by%20@CreativeTim%20#webdesign%20#kit%20#materialdesign%20#react%20#materialtailwind%20#tailwindcss%20https://www.creative-tim.com/product/material-tailwind-dashboard-react)
+# 🎾 Sports Management Dashboard
 
-![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-tailwind-dashboard-react.svg)](https://github.com/creativetimofficial/material-tailwind-dashboard-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-tailwind-dashboard-react.svg)](https://github.com/creativetimofficial/material-tailwind-dashboard-react/issues?q=is%3Aissue+is%3Aclosed)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.5.0-646CFF.svg)](https://vitejs.dev/)
+[![Material Tailwind](https://img.shields.io/badge/Material--Tailwind-2.1.4-00ACC1.svg)](https://material-tailwind.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.4-38B2AC.svg)](https://tailwindcss.com/)
+[![ApexCharts](https://img.shields.io/badge/ApexCharts-3.44.0-F39C12.svg)](https://apexcharts.com/)
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/488/original/material-tailwind-dashboard-react.jpg)
+![Sports Management Dashboard](https://via.placeholder.com/800x400/1e293b/ffffff?text=Sports+Management+Dashboard)
 
-Material Tailwind Dashboard React is our newest free Material Tailwind Admin Template based on Tailwind CSS and React. If you’re a developer looking to create an admin dashboard that is developer-friendly, rich with features, and highly customisable, here is your match. Our innovative Material Tailwind, Tailwind CSS & React dashboard comes with a beautiful design inspired by Google's Material Design and it will help you create stunning websites & web apps to delight your clients.
+A comprehensive sports management dashboard built with React, Material Tailwind, and modern web technologies. This dashboard provides sports organizations with powerful tools to manage players, teams, matches, and performance analytics.
 
-**Fully Coded Elements**
+## ✨ Features
 
-Material Tailwind Dashboard React is built with over 40 frontend individual elements coming from @material-tailwind/react, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using props and tailwind css classnames. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
+- **📊 Real-time Analytics** - Track player performance, team statistics, and match results
+- **👥 Player Management** - Comprehensive player profiles and performance tracking
+- **🏆 Team Management** - Organize teams, track progress, and manage rosters
+- **📅 Match Scheduling** - Schedule matches, track results, and manage fixtures
+- **📈 Interactive Charts** - Beautiful charts powered by ApexCharts
+- **🎨 Modern UI** - Built with Material Tailwind and Tailwind CSS
+- **📱 Responsive Design** - Works perfectly on all devices
+- **⚡ Fast Performance** - Built with Vite for lightning-fast development and builds
 
-This free Material Tailwind, Tailwind CSS & React Dashboard is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+## 🚀 Technology Stack
 
-View [all components here](https://www.material-tailwind.com/docs/react/button).
+### Frontend Framework
 
-**Documentation built by Developers**
+- **React 18.2.0** - Modern React with hooks and concurrent features
+- **Vite 4.5.0** - Next-generation frontend tooling for fast development
 
-Each element is well presented in very complex documentation.
+### UI & Styling
 
-You can read more about the [documentation here](https://www.material-tailwind.com/docs/react/installation).
+- **Material Tailwind 2.1.4** - Material Design components for Tailwind CSS
+- **Tailwind CSS 3.3.4** - Utility-first CSS framework
+- **Hero Icons 2.0.18** - Beautiful hand-crafted SVG icons
 
-**Example Pages**
+### Charts & Data Visualization
 
-If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
+- **ApexCharts 3.44.0** - Modern & interactive charts
+- **React ApexCharts 1.4.1** - React wrapper for ApexCharts
 
-View [example pages here](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/dashboard/home).
+### Routing & State Management
 
-**HELPFUL LINKS**
+- **React Router DOM 6.17.0** - Declarative routing for React
+- **Context API** - Built-in state management with custom hooks
 
-- View [Github Repository](https://github.com/creativetimofficial/material-tailwind-dashboard-react)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+### Development Tools
 
-#### Special thanks
+- **ESLint** - Code linting
+- **Prettier** - Code formatting
+- **PostCSS** - CSS processing
+- **Autoprefixer** - CSS vendor prefixing
 
-During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
+## 📁 Project Structure
 
-- [Material Tailwind](https://material-tailwind.com/) - Material Tailwind is an easy to use components library for Tailwind CSS and Material Design.
-- [Hero Icons](https://heroicons.com/) - Beautiful hand-crafted SVG icons.
-- [Apex Charts](https://apexcharts.com/) - Modern & Interactive open-source Charts.
-- [Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with Material Tailwind Dashboard React. You can use it to gain insights into your sources of traffic.
-
-Let us know your thoughts below. And good luck with development!
-
-## Table of Contents
-
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Deploy](#deploy)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
-
-## Versions
-
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-tailwind-dashboard-react?ref=readme-mtdr)
-
-| React |
-| ----- |
-
-| [![Material Tailwind Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/488/thumb/material-tailwind-dashboard-react.jpg)](http://demos.creative-tim.com/material-tailwind-dashboard-react/#/?ref=readme-mtdr)
-
-## Demo
-
-- [Dashboard page](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/dashboard/home?ref=readme-mtdr)
-- [Profile page](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/dashboard/profile?ref=readme-mtdr)
-- [Tables page](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/dashboard/tables?ref=readme-mtdr)
-- [Notifications page](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/dashboard/notifications?ref=readme-mtdr)
-- [Sign in page](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/auth/sign-in?ref=readme-mtdr)
-- [Sign up page](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/auth/sign-up?ref=readme-mtdr)
-
-[View More](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/?ref=readme-mtdr).
-
-## Quick start
-
-Quick start options:
-
-- Download from [Creative Tim](https://www.creative-tim.com/product/material-tailwind-dashboard-react?ref=readme-mtdr).
-
-## Deploy
-
-:rocket: You can deploy your own version of the template to Genezio with one click:
-
-[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/material-tailwind-dashboard-react&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
-
-## Terminal Commands
-
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root ./ directory of the product and run `npm install` or `yarn install` or `pnpm install` to install our local dependencies.
-
-## Documentation
-
-The documentation for the Material Tailwind Dashboard React is hosted at our [website](https://material-tailwind.com/?ref=readme-mtdr).
-
-### What's included
-
-Within the download you'll find the following directories and files:
-
-```
-material-tailwind-dashboard-react
-    ├── public
-    │   ├── css
-    │   └── img
-    ├── src
-    │   ├── configs
-    │   ├── context
-    │   ├── data
-    │   ├── layouts
-    │   ├── pages
-    │   ├── widgets
-    │   ├── App.jsx
-    │   ├── main.jsx
-    │   └── routes.jsx
-    ├── .gitignore
-    ├── CHANGELOG.md
-    ├── index.html
-    ├── ISSUE_TEMPLATE.md
-    ├── jsconfig.json
-    ├── LICENSE
-    ├── package.json
-    ├── postcsss.config.cjs
-    ├── prettier.config.cjs
-    ├── README.md
-    ├── tailwind.config.cjs
-    └── vite.config.js
+```bash
+sports-management-dashboard/
+├── public/
+│   ├── _headers                 # Netlify headers for MIME types
+│   ├── _redirects              # SPA routing redirects
+│   ├── css/
+│   │   └── tailwind.css        # Tailwind CSS styles
+│   └── img/                    # Static images and assets
+├── src/
+│   ├── components/             # Reusable UI components
+│   ├── context/                # React Context for state management
+│   │   └── index.jsx           # Material Tailwind controller
+│   ├── data/                   # Static data and mock APIs
+│   │   ├── authors-table-data.js    # Staff/players data
+│   │   ├── projects-table-data.js   # Sports programs data
+│   │   ├── statistics-cards-data.js # Dashboard metrics
+│   │   └── statistics-charts-data.js # Chart configurations
+│   ├── layouts/                # Page layout components
+│   │   ├── auth.jsx            # Authentication layout
+│   │   └── dashboard.jsx       # Main dashboard layout
+│   ├── pages/                  # Page components
+│   │   ├── auth/               # Authentication pages
+│   │   │   ├── sign-in.jsx     # Login page
+│   │   │   └── sign-up.jsx     # Registration page
+│   │   └── dashboard/          # Dashboard pages
+│   │       ├── home.jsx        # Dashboard home/overview
+│   │       ├── profile.jsx     # Player profiles page
+│   │       ├── tables.jsx      # Teams and programs tables
+│   │       └── notifications.jsx # Matches and alerts
+│   ├── routes.jsx              # Application routing configuration
+│   ├── widgets/                # Complex UI components
+│   │   ├── cards/              # Card components
+│   │   │   ├── statistics-card.jsx    # Metric display cards
+│   │   │   ├── profile-info-card.jsx  # Profile information
+│   │   │   └── message-card.jsx       # Message/notifications
+│   │   ├── charts/             # Chart components
+│   │   │   └── statistics-chart.jsx   # ApexCharts wrapper
+│   │   └── layout/             # Layout-specific widgets
+│   │       ├── sidenav.jsx     # Sidebar navigation
+│   │       ├── navbar.jsx      # Top navigation bar
+│   │       ├── dashboard-navbar.jsx   # Dashboard-specific navbar
+│   │       ├── footer.jsx      # Page footer
+│   │       └── configurator.jsx       # Theme configurator
+│   ├── App.jsx                 # Main application component
+│   └── main.jsx                # Application entry point
+├── package.json                # Dependencies and scripts
+├── vite.config.js              # Vite configuration
+├── tailwind.config.cjs         # Tailwind CSS configuration
+├── postcss.config.cjs          # PostCSS configuration
+├── netlify.toml                # Netlify deployment config
+└── README.md                   # Project documentation
 ```
 
-## Browser Support
+## 🏗️ Components Overview
 
-At present, we officially aim to support the last two versions of the following browsers:
+### Core Components
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+#### **Statistics Cards**
 
-## Resources
+- **Location**: `src/widgets/cards/statistics-card.jsx`
+- **Purpose**: Display key metrics like active players, teams, matches, and revenue
+- **Features**: Color-coded indicators, trend arrows, and responsive design
 
-- [Live Preview](https://demos.creative-tim.com/material-tailwind-dashboard-react/#/dashboard/home?ref=readme-mtdr)
-- [Download Page](https://www.creative-tim.com/product/material-tailwind-dashboard-react?ref=readme-mtdr)
-- Documentation is [here](https://material-tailwind.com/?ref=readme-mtdr)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-mtdr)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-mtdr)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/material-tailwind-dashboard-react/issues)
-- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
+#### **Statistics Charts**
 
-## Reporting Issues
+- **Location**: `src/widgets/charts/statistics-chart.jsx`
+- **Purpose**: Render interactive charts using ApexCharts
+- **Features**: Multiple chart types (bar, line), customizable themes, responsive
 
-We use GitHub Issues as the official bug tracker for the Material Tailwind Dashboard React. Here are some advices for our users that want to report an issue:
+#### **Navigation Components**
 
-1. Make sure that you are using the latest version of the Material Tailwind Dashboard React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/material-tailwind-dashboard-react?ref=readme-mtdr).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+- **Side Navigation**: `src/widgets/layout/sidenav.jsx`
+  - Collapsible sidebar with sports-themed menu items
+  - Dark/light theme support
+- **Top Navigation**: `src/widgets/layout/dashboard-navbar.jsx`
+  - User profile, notifications, and settings access
 
-## Technical Support or Questions
+### Layout Components
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-mtdr) instead of opening an issue.
+#### **Dashboard Layout**
 
-## Licensing
+- **Location**: `src/layouts/dashboard.jsx`
+- **Features**:
+  - Responsive sidebar navigation
+  - Theme configurator toggle
+  - Fixed header with breadcrumbs
+  - Footer with branding
 
-- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-mtdr)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-mtdr)
+#### **Authentication Layout**
 
-## Useful Links
+- **Location**: `src/layouts/auth.jsx`
+- **Features**:
+  - Clean, minimal design for login/signup
+  - Centered content layout
+  - Background images and gradients
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-mtdr) from Creative Tim
+### Page Components
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+#### **Dashboard Home**
 
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-mtdr) from Creative Tim
+- **Location**: `src/pages/dashboard/home.jsx`
+- **Features**:
+  - Statistics overview cards
+  - Interactive performance charts
+  - Recent activities feed
+  - Quick action buttons
 
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-mtdr) (earn money)
+#### **Players/Profile Management**
 
-##### Social Media
+- **Location**: `src/pages/dashboard/profile.jsx`
+- **Features**:
+  - Player profile cards
+  - Performance statistics
+  - Contact information
+  - Profile editing capabilities
 
-Twitter: <https://twitter.com/CreativeTim>
+#### **Teams & Programs**
 
-Facebook: <https://www.facebook.com/CreativeTim>
+- **Location**: `src/pages/dashboard/tables.jsx`
+- **Features**:
+  - Data tables for teams and programs
+  - Sorting and filtering
+  - Progress indicators
+  - Action menus
 
-Dribbble: <https://dribbble.com/creativetim>
+#### **Matches & Notifications**
+
+- **Location**: `src/pages/dashboard/notifications.jsx`
+- **Features**:
+  - Match schedules and results
+  - Notification alerts
+  - Calendar integration
+  - Real-time updates
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v16 or higher)
+- **npm** or **yarn** package manager
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/ARyavatta/sportsMan.git
+   cd sports-management-dashboard
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## 📊 Data Structure
+
+### Statistics Cards Data
+
+```javascript
+// src/data/statistics-cards-data.js
+export const statisticsCardsData = [
+  {
+    color: "gray",
+    icon: UserGroupIcon,
+    title: "Active Players",
+    value: "1,247",
+    footer: {
+      color: "text-green-500",
+      value: "+12%",
+      label: "than last month",
+    },
+  },
+  // ... more cards
+];
+```
+
+### Chart Configurations
+
+```javascript
+// src/data/statistics-charts-data.js
+const playerAttendanceChart = {
+  type: "bar",
+  height: 220,
+  series: [{
+    name: "Attendance",
+    data: [85, 78, 92, 88, 95, 82, 90],
+  }],
+  options: {
+    colors: "#388e3c",
+    // ... chart options
+  },
+};
+```
+
+## 🎨 Customization
+
+### Theme Configuration
+
+The dashboard supports multiple themes and can be customized through the theme configurator (gear icon in the bottom right).
+
+### Color Schemes
+
+- **Primary**: Blue (#0288d1)
+- **Secondary**: Green (#388e3c)
+- **Accent**: Orange (#f39c12)
+
+### Adding New Components
+
+1. Create component in appropriate directory (`src/widgets/` or `src/components/`)
+2. Export from index file
+3. Import and use in pages/layouts
+
+## 🌐 Deployment
+
+### Netlify Deployment
+
+The project includes `netlify.toml` configuration for seamless deployment:
+
+```toml
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[headers]]
+  for = "/assets/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
+```
+
+### Manual Deployment
+
+1. Build the project: `npm run build`
+2. Upload the `dist/` folder to your hosting provider
+3. Configure headers for JavaScript MIME types
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Material Tailwind** - For the beautiful component library
+- **Hero Icons** - For the comprehensive icon set
+- **ApexCharts** - For powerful charting capabilities
+- **Tailwind CSS** - For the utility-first CSS framework
+
+## 📞 Support
+
+For support, email support@sportsmanagement.com or join our Discord community.
+
+---
+
+**Made with ❤️ for sports organizations worldwide**
 
 Google+: <https://plus.google.com/+CreativetimPage>
 
