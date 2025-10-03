@@ -1,12 +1,12 @@
 import { chartsConfig } from "@/configs";
 
-const websiteViewsChart = {
+const playerAttendanceChart = {
   type: "bar",
   height: 220,
   series: [
     {
-      name: "Views",
-      data: [50, 20, 10, 22, 50, 10, 40],
+      name: "Attendance",
+      data: [85, 78, 92, 88, 95, 82, 90],
     },
   ],
   options: {
@@ -20,18 +20,18 @@ const websiteViewsChart = {
     },
     xaxis: {
       ...chartsConfig.xaxis,
-      categories: ["M", "T", "W", "T", "F", "S", "S"],
+      categories: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     },
   },
 };
 
-const dailySalesChart = {
+const matchRevenueChart = {
   type: "line",
   height: 220,
   series: [
     {
-      name: "Sales",
-      data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
+      name: "Revenue",
+      data: [12000, 15000, 18000, 22000, 25000, 28000, 32000, 35000, 38000],
     },
   ],
   options: {
@@ -46,27 +46,27 @@ const dailySalesChart = {
     xaxis: {
       ...chartsConfig.xaxis,
       categories: [
+        "Jan",
+        "Feb",
+        "Mar",
         "Apr",
         "May",
         "Jun",
         "Jul",
         "Aug",
         "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
       ],
     },
   },
 };
 
-const completedTaskChart = {
+const teamPerformanceChart = {
   type: "line",
   height: 220,
   series: [
     {
-      name: "Sales",
-      data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
+      name: "Performance",
+      data: [75, 80, 85, 82, 88, 90, 87, 92, 95],
     },
   ],
   options: {
@@ -81,50 +81,41 @@ const completedTaskChart = {
     xaxis: {
       ...chartsConfig.xaxis,
       categories: [
+        "Jan",
+        "Feb",
+        "Mar",
         "Apr",
         "May",
         "Jun",
         "Jul",
         "Aug",
         "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
       ],
     },
   },
-};
-const completedTasksChart = {
-  ...completedTaskChart,
-  series: [
-    {
-      name: "Tasks",
-      data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
-    },
-  ],
 };
 
 export const statisticsChartsData = [
   {
     color: "white",
-    title: "Website View",
-    description: "Last Campaign Performance",
-    footer: "campaign sent 2 days ago",
-    chart: websiteViewsChart,
+    title: "Player Attendance",
+    description: "Weekly training session attendance",
+    footer: "last updated 2 hours ago",
+    chart: playerAttendanceChart,
   },
   {
     color: "white",
-    title: "Daily Sales",
-    description: "15% increase in today sales",
-    footer: "updated 4 min ago",
-    chart: dailySalesChart,
+    title: "Match Revenue",
+    description: "Monthly ticket and merchandise sales",
+    footer: "updated 1 day ago",
+    chart: matchRevenueChart,
   },
   {
     color: "white",
-    title: "Completed Tasks",
-    description: "Last Campaign Performance",
+    title: "Team Performance",
+    description: "Overall team performance rating",
     footer: "just updated",
-    chart: completedTasksChart,
+    chart: teamPerformanceChart,
   },
 ];
 

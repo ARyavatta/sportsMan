@@ -1,53 +1,53 @@
 import {
-  BanknotesIcon,
-  UserPlusIcon,
-  UsersIcon,
-  ChartBarIcon,
+  UserGroupIcon,
+  TrophyIcon,
+  CalendarDaysIcon,
+  CurrencyDollarIcon,
 } from "@heroicons/react/24/solid";
 
 export const statisticsCardsData = [
   {
     color: "gray",
-    icon: BanknotesIcon,
-    title: "Today's Money",
-    value: "$53k",
+    icon: UserGroupIcon,
+    title: "Active Players",
+    value: "1,247",
     footer: {
       color: "text-green-500",
-      value: "+55%",
-      label: "than last week",
-    },
-  },
-  {
-    color: "gray",
-    icon: UsersIcon,
-    title: "Today's Users",
-    value: "2,300",
-    footer: {
-      color: "text-green-500",
-      value: "+3%",
+      value: "+12%",
       label: "than last month",
     },
   },
   {
     color: "gray",
-    icon: UserPlusIcon,
-    title: "New Clients",
-    value: "3,462",
+    icon: TrophyIcon,
+    title: "Total Teams",
+    value: "48",
     footer: {
-      color: "text-red-500",
-      value: "-2%",
-      label: "than yesterday",
+      color: "text-green-500",
+      value: "+5%",
+      label: "than last season",
     },
   },
   {
     color: "gray",
-    icon: ChartBarIcon,
-    title: "Sales",
-    value: "$103,430",
+    icon: CalendarDaysIcon,
+    title: "Matches This Week",
+    value: "23",
+    footer: {
+      color: "text-red-500",
+      value: "-8%",
+      label: "than last week",
+    },
+  },
+  {
+    color: "gray",
+    icon: CurrencyDollarIcon,
+    title: "Season Revenue",
+    value: "$284,500",
     footer: {
       color: "text-green-500",
-      value: "+5%",
-      label: "than yesterday",
+      value: "+18%",
+      label: "than last season",
     },
   },
 ];
